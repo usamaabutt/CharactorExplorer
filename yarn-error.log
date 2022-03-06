@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/bin/yarnpkg install --offline
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mac/Library/Android/sdk/emulator:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/tools/bin:/Users/mac/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Invariant Violation: There should only be one folder in a package cache (got object-assign,object.assign in /Users/mac/Library/Caches/Yarn/v6/npm-object-assign-4.1.1-integrity/node_modules)
+      at invariant (/usr/local/lib/node_modules/yarn/lib/cli.js:2314:15)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:60678:7
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~44.0.0",
+      "expo-status-bar": "~1.2.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
