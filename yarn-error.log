@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/bin/yarnpkg install --offline
+  /usr/local/Cellar/node/16.8.0/bin/node /usr/local/bin/yarn install
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mac/Library/Android/sdk/emulator:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/tools/bin:/Users/mac/Library/Android/sdk/platform-tools
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mac/Library/Android/sdk/emulator:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/tools/bin:/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/Library/Android/sdk/emulator:/Users/mac/Library/Android/sdk/tools:/Users/mac/Library/Android/sdk/tools/bin:/Users/mac/Library/Android/sdk/platform-tools
 
 Yarn version: 
   1.22.11
@@ -14,12 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Invariant Violation: There should only be one folder in a package cache (got object-assign,object.assign in /Users/mac/Library/Caches/Yarn/v6/npm-object-assign-4.1.1-integrity/node_modules)
-      at invariant (/usr/local/lib/node_modules/yarn/lib/cli.js:2314:15)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:60678:7
-      at Generator.next (<anonymous>)
-      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
 
 npm manifest: 
   {
